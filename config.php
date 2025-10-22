@@ -23,9 +23,9 @@ if (!file_exists(__DIR__ . '/logs')) {
 // DATABASE CONFIGURATION
 // ============================================
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'gotoa957_gotoausjobs');
+define('DB_NAME', 'gotoa957_job_portal_db');
 define('DB_USER', 'gotoa957_goalsadi');
-define('DB_PASS', 'medo123My@'); // 
+define('DB_PASS', 'password'); // 
 define('DB_CHARSET', 'utf8mb4');
 
 // ============================================
@@ -544,3 +544,4 @@ if (!function_exists('sanitizeInput')) {
         return filter_var($value, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     }
 }
+
